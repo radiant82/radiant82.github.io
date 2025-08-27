@@ -128,6 +128,7 @@ a {
   width: 32vw;
   height: 32vw;
   border-radius: 50%;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,16 +144,17 @@ a {
   transform: translate(-50%, -50%);
   width: 115%;
   height: 115%;
-  background: conic-gradient(slateblue, #1f242d, slateblue);
-  border-radius: 50%;
-  z-index: 0;
+  background: conic-gradient(transparent, transparent, transparent, #7cf03d);
 }
 
 .home-img .img-box .img-item {
   position: relative;
   width: 100%;
   height: 100%;
+  background-color: #1f242d;
   border-radius: 50%;
+  border: 0.1px solid #1f242d;
+  justify-content: center;
   z-index: 1;
   overflow: hidden;
 }
